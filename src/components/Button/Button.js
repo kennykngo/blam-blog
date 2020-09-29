@@ -6,7 +6,13 @@ import "./Button.css";
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = ["btn--medium", "btn--large"];
 
-const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
+export const Button = ({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  buttonSize,
+}) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0]; // default as btn--primary
@@ -26,4 +32,4 @@ const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
   );
 };
 
-export default Button;
+// export default Button;
