@@ -15,13 +15,13 @@ function Card() {
             src="images/img-9.jpg"
             text="Explore the hidden waterfall deep inside the Amazon Jungle"
             label="Adventure"
-            path="/services"
+            path="/contact"
           />
           <CardItem
             src="images/img-2.jpg"
             text="Travel through the Islands of Bali in a Private Cruise"
             label="Luxury"
-            path="/services"
+            path="/contact"
           />
         </ul>
       </div>

@@ -1,13 +1,13 @@
 import React from "react";
-import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
 
 import "./App.css";
-import Hero from "./components/Hero/Hero";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
-        <Hero />
+        {/* <Hero /> */}
+        <Footer />
       </Router>
     </>
   );
