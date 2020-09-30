@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../Button/Button";
+import "./Hero.css";
 
 function Hero() {
   return (
@@ -14,6 +15,14 @@ function Hero() {
           buttonSize="btn--large"
         >
           GET STARTED
+        </Button>
+        <Button
+          className="btns"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+        >
+          WATCH TRAILER
+          <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
